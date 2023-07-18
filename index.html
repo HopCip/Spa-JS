@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spa Nitrawa</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="questions.css">
+
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+                <img src="./templelogo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#qna" class="scroll-link">Q&A</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>All <span>In</span>clusive Spa Resort</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#qna" class="scroll-link btn btn-white">More information</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+        <div id="about-div">
+        <article class="about-img">
+            <img src="./resort.jpg" alt="" />
+        </article>
+        <article class="about">
+            <!-- btn container -->
+            <div class="btn-container">
+                <button class="tab-btn active" data-id="history">Information</button>
+                <button class="tab-btn" data-id="vision">accommodations</button>
+                <button class="tab-btn" data-id="goals">VIP services</button>
+            </div>
+            <div class="about-content">
+                <!-- single item -->
+                <div class="content active" id="history">
+                    <h4>Information</h4>
+                    <p>
+                        I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                        mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                        rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                        tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                        mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                        direct trade hoodie ugh chambray, craft beer pork belly flannel
+                        tacos single-origin coffee art party migas plaid pop-up.
+                    </p>
+                </div>
+                <!-- end of single item -->
+                <!-- single item -->
+                <div class="content" id="vision">
+                    <h4>accommodations</h4>
+                    <p>
+                        Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                        crucifix offal deep v hella biodiesel. Church-key listicle
+                        polaroid put a bird on it chillwave palo santo enamel pin,
+                        tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                        loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+                        Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+                        Roof party hammock master cleanse pop-up truffaut, bicycle
+                        rights skateboard affogato readymade sustainable deep v
+                        live-edge schlitz narwhal.
+                    </p>
+                </div>
+                <!-- end of single item -->
+                <!-- single item -->
+                <div class="content" id="goals">
+                    <h4>VIP services</h4>
+                    <p>
+                        Chambray authentic truffaut, kickstarter brunch taxidermy vape
+                        heirloom four dollar toast raclette shoreditch church-key.
+                        Poutine etsy tote bag, cred fingerstache leggings cornhole
+                        everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+                        swag, mixtape hashtag marfa readymade direct trade man braid
+                        cold-pressed roof party. Small batch adaptogen coloring book
+                        heirloom. Letterpress food truck hammock literally hell of wolf
+                        beard adaptogen everyday carry. Dreamcatcher pitchfork yuccie,
+                        banh mi salvia venmo photo booth quinoa chicharrones.
+                    </p>
+                </div>
+                <!-- end of single item -->
+            </div>
+        </article></div>
+      </div>
+      
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+        <div class="section-center">
+            <!-- single item -->
+            <article class="message-item">
+                <img src="./massage1.jpg" alt="massage image" class="photo" />
+                <div class="item-info">
+                    <div class="header">
+                        <h4>Full Body Massage</h4>
+                        <h4 class="price">$49.99</h4>
+                    </div>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corrupti culpa repellat blanditiis necessitatibus exercitationem, ad aliquid amet nulla vero.
+                    </p>
+                </div>
+            </article>
+            <!-- end of single item -->
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="qna" class="section">
+      <div class="title">
+        <h2>Q&<span class="span-colored">A</span></h2>
+        <section class="questions">
+            <!-- questions -->
+            <div class="section-center-question">
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>do you accept all major credit cards?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                            dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                            repellat reprehenderit.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>How far is the beach?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                            dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                            repellat reprehenderit.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>When do cancellation fees apply?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                            dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                            repellat reprehenderit.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>May I bring a pet to stay with me?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                            dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                            repellat reprehenderit.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+                <!-- single question -->
+                <article class="question">
+                    <!-- question title -->
+                    <div class="question-title">
+                        <p>do you use organic ingredients?</p>
+                        <!-- button -->
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <!-- question text -->
+                    <div class="question-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                            dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                            repellat reprehenderit.
+                        </p>
+                    </div>
+                </article>
+                <!-- end of single question -->
+        </section>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Nitrawa the best SPA company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+    <script src="services.js"></script>
+    <script src="questions.js"></script>
+  </body>
+</html>
