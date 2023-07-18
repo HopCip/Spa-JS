@@ -109,3 +109,11 @@ main {
     display: grid;
     place-items: center;
 }
+
+@media screen and (max-width: 416px) {
+
+    .tab-btn {
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+}
